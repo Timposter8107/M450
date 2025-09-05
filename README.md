@@ -30,3 +30,9 @@ Tool zur zeichnung und erstellung von Teilen in einer Fabrik exportiert grösse 
 
 #### Konkrete Testfälle
 
+| Preis in CHF | Rabatt in % |
+|--------------|-------------|
+| 10'000       | 0           |
+| 17'000       | 5           |
+| 21'000       | 7           |
+| 40'000       | 8.5         |
