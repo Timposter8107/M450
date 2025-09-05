@@ -23,10 +23,10 @@ Tool zur zeichnung und erstellung von Teilen in einer Fabrik exportiert grösse 
 
 | Preis in CHF | Rabatt in % |
 |--------------|-------------|
-| < 15'000     | 0           |
-| < 20'000     | 5           |
-| < 25'000     | 7           |
-| > 25'000     | 8.5         |
+| <  15'000    | 0           |
+| <  20'000    | 5           |
+| <  25'000    | 7           |
+| >= 25'000    | 8.5         |
 
 #### Konkrete Testfälle
 
