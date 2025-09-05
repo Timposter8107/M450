@@ -36,3 +36,16 @@ Tool zur zeichnung und erstellung von Teilen in einer Fabrik exportiert grösse 
 | 17'000       | 5           |
 | 21'000       | 7           |
 | 40'000       | 8.5         |
+
+### Übung 2 (Website Europcar)
+
+| Beschreibung                 | Erwartetes Resultat                               | Effektives Resultat                                   | Mögliche Ursache          |
+|------------------------------|---------------------------------------------------|-------------------------------------------------------|---------------------------|
+| User ruft Website auf        | Website lädt und zeigt optionen                   | Erwartetes Resultat                                   | -                         |
+| User sucht nach Ort und Zeit | Website zeigt Verfügbare Fahrzeuge                | Erwartetes Resultat                                   | -                         |
+| User klickt Login            | Login Fenster erscheint                           | Erwartetes Resultat                                   | -                         |
+| User wählt Extras            | Website fügt gewählte Extras zu  Bestellung hinzu | Ab 18 Extras: "Sorry an error occurred, please retry" | Limit für Extras erreicht |
+| User klickt Checkout         | Website fragt nach Kundeninformationen            | Erwartetes Resultat                                   | -                         |
+
+### Übung 3
+
