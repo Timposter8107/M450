@@ -4,9 +4,9 @@
 
 ### Welche Formen von Tests kennen Sie aus der Informatik?
 
-* Manuelles testing
-* Automatisiertes testing
-* System end-to-end testing
+Unit-Tests
+Integrationstests
+System- / End-to-End-Tests
 
 ### Nennen Sie ein Beispiel eines SW-Fehlers und eines SW-Mangels. Nennen Sie ein Beispiel für einen hohen Schaden bei einem SW-Fehler.
 
@@ -39,6 +39,8 @@ Tool zur zeichnung und erstellung von Teilen in einer Fabrik exportiert grösse 
 
 ### Übung 2 (Website Europcar)
 
+## Blackbox Tests
+
 | Beschreibung                 | Erwartetes Resultat                               | Effektives Resultat                                   | Mögliche Ursache          |
 |------------------------------|---------------------------------------------------|-------------------------------------------------------|---------------------------|
 | User ruft Website auf        | Website lädt und zeigt optionen                   | Erwartetes Resultat                                   | -                         |
@@ -49,3 +51,23 @@ Tool zur zeichnung und erstellung von Teilen in einer Fabrik exportiert grösse 
 
 ### Übung 3
 
+## Black-Box Tests
+
+| Beschreibung                | Erwartetes Resultat                                    | Effektives Resultat                              | Mögliche Ursache                       |
+|-----------------------------|--------------------------------------------------------|--------------------------------------------------|----------------------------------------|
+| A zum Anzeigen aller Konten | Programm zeigt alle  vorprogrammierten Konten an       | Erwartetes Resultat                              | -                                      |
+| E für Konto erstellen       | Programm fügt neues Konto hinzu mit Name und Währung   | Erwartetes Resultat                              | -                                      |
+| W für Wechselkurs eingeben  | Programm zeigt Wechselkurs für  eingegebenen Währungen | Error bei der Abfrage des Wechselkurses: Timeout | API kann den Wechselkurs nicht abrufen |
+| Q für beenden               | Programm schliesst                                     | Erwartetes Resultat                              | -                                      |
+
+## Methoden für White-Box Tests
+
+### Counter Klasse
+
+* printAccountDetails
+* printBalance
+* printAccountsList
+
+### ExchangeRateOkhttp Klasse
+
+* getExchangeRate
