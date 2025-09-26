@@ -39,7 +39,7 @@ Tool zur zeichnung und erstellung von Teilen in einer Fabrik exportiert grösse 
 
 ### Übung 2 (Website Europcar)
 
-## Blackbox Tests
+#### Blackbox Tests
 
 | Beschreibung                 | Erwartetes Resultat                               | Effektives Resultat                                   | Mögliche Ursache          |
 |------------------------------|---------------------------------------------------|-------------------------------------------------------|---------------------------|
@@ -51,7 +51,7 @@ Tool zur zeichnung und erstellung von Teilen in einer Fabrik exportiert grösse 
 
 ### Übung 3
 
-## Black-Box Tests
+#### Black-Box Tests
 
 | Beschreibung                | Erwartetes Resultat                                    | Effektives Resultat                              | Mögliche Ursache                       |
 |-----------------------------|--------------------------------------------------------|--------------------------------------------------|----------------------------------------|
@@ -60,14 +60,27 @@ Tool zur zeichnung und erstellung von Teilen in einer Fabrik exportiert grösse 
 | W für Wechselkurs eingeben  | Programm zeigt Wechselkurs für  eingegebenen Währungen | Error bei der Abfrage des Wechselkurses: Timeout | API kann den Wechselkurs nicht abrufen |
 | Q für beenden               | Programm schliesst                                     | Erwartetes Resultat                              | -                                      |
 
-## Methoden für White-Box Tests
+#### Methoden für White-Box Tests
 
-### Counter Klasse
+##### Counter Klasse
 
 * printAccountDetails
 * printBalance
 * printAccountsList
 
-### ExchangeRateOkhttp Klasse
+##### ExchangeRateOkhttp Klasse
 
 * getExchangeRate
+
+## 19.09.2025
+
+### Aufgabe 2
+
+#### jUnit 5 Features
+
+* Schreiben von unabhängigen Tests
+* Schnelle Durchführung
+* Grosse Code-Abdeckung
+
+### Aufgabe 3
+
